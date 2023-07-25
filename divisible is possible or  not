@@ -1,0 +1,19 @@
+package basic;
+
+import java.util.Scanner;
+
+public class Divisible_or_not {
+	static Scanner sc=new Scanner(System.in);
+	public static void main(String[] args) {
+		System.out.println("Enter numerator");
+		int n=sc.nextInt();
+		System.out.println("Enter denominator other than 0");
+		int d=sc.nextInt();
+		if(n%d==0)
+			System.out.println("division is possible");
+		else
+			System.out.println("division is not possible");
+		
+	}
+
+}
